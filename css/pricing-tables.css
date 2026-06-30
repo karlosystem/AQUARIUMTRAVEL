@@ -1,0 +1,304 @@
+/* #########################################################
+
+HOW TO CREATE CSS3 PRICING TABLES [TUTORIAL]
+
+"How to create CSS3 Pricing Tables [Tutorial]" was specially made for DesignModo by our friend Valeriu Timbuc.
+
+Links:
+http://vtimbuc.net
+http://designmodo.com
+http://vladimirkudinov.com
+
+######################################################### */
+
+
+
+.pricing-table { min-width: 210px; border:0px;}
+
+.pricing-table td {
+	position: relative;
+	display: inline-block;
+	margin: 0 5px;
+	vertical-align: text-top;
+	border:1px;	
+}
+
+
+
+/* Plan Title */
+.pricing-table thead .plan td {
+	width: 210px;
+	height: 42px;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.pricing-table thead .plan h4 {
+	font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	text-transform: uppercase;
+	line-height: 24px;
+}
+
+.pricing-table thead .plan em {
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.pricing-table thead .plan .green {
+	color: #36611e;
+}
+
+.pricing-table thead .plan .orange {
+	color: #fafafa;
+	text-shadow: 1px 1px 2px rgba(0,0,0, .4);
+	background: url(../img/orange_pattern.png) repeat-x 0 0;
+}
+
+
+
+/* Plan Price Section */
+.pricing-table thead .price_paquete td {
+	position: relative;
+	width: 210px;
+	padding: 25px 0;
+	border:1px;
+	font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #E0363A;
+	background-color: #eeeeee;
+}
+
+.pricing-table thead .price_paquete p {
+	display: table;
+	margin: 0 auto;
+	font-size: 50px;
+	line-height: 60px;
+}
+
+.pricing-table thead .price_paquete p span {
+	font-size: 0.5em;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.pricing-table thead .price_paquete span { font-size: 14px; }
+
+.pricing-table thead .price_paquete a {
+	display: block;
+	position: absolute;
+	top: 41px;
+	right: -5px;
+	height: 32px;
+	padding: 0 10px;
+	line-height: 32px;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.pricing-table thead .price_paquete .green a {
+	color: #37621f;
+	text-shadow: 1px 1px 0px rgba(255,255,255, .2);
+	background: #82d344;
+	background: -moz-linear-gradient(top,  #82d344 0%, #51af34 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#82d344), color-stop(100%,#51af34));
+	background: -webkit-linear-gradient(top,  #82d344 0%,#51af34 100%);
+	background: -o-linear-gradient(top,  #82d344 0%,#51af34 100%);
+	background: -ms-linear-gradient(top,  #82d344 0%,#51af34 100%);
+	background: linear-gradient(to bottom,  #82d344 0%,#51af34 100%);
+}
+
+.pricing-table thead .price_paquete .orange a {
+	color: #fafafa;
+}
+
+.pricing-table thead .price_paquete .green a:before,
+.pricing-table thead .price_paquete .orange a:before,
+.pricing-table thead .price_paquete .green a:after,
+.pricing-table thead .price_paquete .orange a:after {
+	display: block;
+	position: absolute;
+	content: '';
+}
+
+.pricing-table thead .price_paquete .green a:before,
+.pricing-table thead .price_paquete .orange a:before {
+	width: 8px;
+	height: 32px;
+	top: 0;
+	left: -8px;
+	background: url(../img/badge.png) no-repeat;
+}
+
+.pricing-table thead .price_paquete .green a:after,
+.pricing-table thead .price_paquete .orange a:after {
+	width: 0;
+	height: 0;
+	bottom: -5px;
+	right: 0;
+	border-bottom: 5px solid transparent;
+}
+
+.pricing-table thead .price_paquete .green a:before { background-position: 0 0; }
+.pricing-table thead .price_paquete .orange a:before { background-position: 0 -32px; }
+.pricing-table thead .price_paquete .green a:after { border-left: 0px solid #1c5d40; }
+.pricing-table thead .price_paquete .orange a:after { border-left: 5px solid #88330a; }
+
+
+
+/* Plan Features Section */
+.pricing-table tbody tr:first-child td:before {
+	position: absolute;
+	display: block;
+	content: '';
+	width: 100%;
+	height: 5px;
+	top: -25px;
+	left: 0;
+	background: url(../img/stripe.png) repeat-x 0 0;
+}
+
+.pricing-table tbody td {
+	width: 170px;
+	padding-left: 40px;
+	line-height: 30px;
+	border-top: 1px solid #E4E2DA;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #828282;
+}
+
+.pricing-table tbody tr:first-child td { border-top: 0px solid #ffffff; }
+
+.pricing-table .clock-icon td,
+.pricing-table .basket-icon td,
+.pricing-table .star-icon td,
+.pricing-table .heart-icon td { background: #ffffff url(../img/icons.png) no-repeat 0 0; }
+.pricing-table .clock-icon td { background-position: 0 0; }
+.pricing-table .basket-icon td { background-position: 0 -30px; }
+.pricing-table .star-icon td { background-position: 0 -60px; }
+.pricing-table .heart-icon td { background-position: 0 -90px; }
+
+
+
+/* Plan Description Section */
+.pricing-table tfoot td {
+	width: 190px;
+	padding: 20px 10px;
+	text-align: center;
+	line-height: 18px;
+	background: #ffffff;
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #828282;
+
+	-webkit-border-radius: 0 0 2px 2px;
+	-moz-border-radius: 0 0 2px 2px;
+	border-radius: 0 0 2px 2px;
+
+	-webkit-box-shadow: 0px 2px 0px #e4e4e4;
+	-moz-box-shadow: 0px 2px 0px #e4e4e4;
+	box-shadow: 0px 2px 0px #e4e4e4;
+}
+
+/* Float Text Section */
+
+@font-face {
+    font-family: 'Lobster13Regular';
+    src: url('font/Lobster_1.3-webfont.eot');
+    src: url('font/Lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Lobster_1.3-webfont.woff') format('woff'),
+         url('font/Lobster_1.3-webfont.ttf') format('truetype'),
+         url('font/Lobster_1.3-webfont.svg#Lobster13Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.table-float {
+	display: block;
+	position: absolute;
+	width: 300px;
+	padding: 80px 0 0 0;
+	top: 85%;
+	left: 130px;
+}
+
+.table-float p {
+	font-family: Lobster13Regular, sans-serif;
+	font-size: 16px;
+	color: #858585;
+	line-height: 20px;
+}
+
+.table-float p.big {
+	font-size: 65px;
+	color: #f76117;
+	text-align: right;
+	line-height: 65px;
+}
+
+.table-float .arrow {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 50px;
+	width: 68px;
+	height: 77px;
+	background: url(../img/arrow.png) no-repeat 0 0;
+}
+
+.button_example{
+border:4px solid #26759E;-webkit-box-shadow: #878787 0px 2px 2px ;-moz-box-shadow: #878787 0px 2px 2px ; box-shadow: #878787 0px 2px 2px ; -webkit-border-radius: 23px; -moz-border-radius: 23px;border-radius: 23px;font-size:13px;font-family:arial, helvetica, sans-serif; padding: 10px 20px 10px 20px; text-decoration:none; display:inline-block;text-shadow: 2px 2px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #3093C7; background-image: -webkit-gradient(linear, left top, left bottom, from(#3093C7), to(#1C5A85));
+ background-image: -webkit-linear-gradient(top, #3093C7, #1C5A85);
+ background-image: -moz-linear-gradient(top, #3093C7, #1C5A85);
+ background-image: -ms-linear-gradient(top, #3093C7, #1C5A85);
+ background-image: -o-linear-gradient(top, #3093C7, #1C5A85);
+ background-image: linear-gradient(to bottom, #3093C7, #1C5A85);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093C7, endColorstr=#1C5A85);
+}
+
+.button_example:hover{
+ border:4px solid #26759E;
+ background-color: #26759E; background-image: -webkit-gradient(linear, left top, left bottom, from(#26759E), to(#133D5B));
+ background-image: -webkit-linear-gradient(top, #26759E, #133D5B);
+ background-image: -moz-linear-gradient(top, #26759E, #133D5B);
+ background-image: -ms-linear-gradient(top, #26759E, #133D5B);
+ background-image: -o-linear-gradient(top, #26759E, #133D5B);
+ background-image: linear-gradient(to bottom, #26759E, #133D5B);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759E, endColorstr=#133D5B);
+}
+
+#templatemo_sidebar {
+	width: 220px;
+	padding-left: 0px;
+}
+
+.sidebar_box {
+	width: 110px;
+	height: 80px;
+	padding: 10px 10px 10px 90px;
+	margin-bottom: 20px;
+	font-size: 11px;
+	position: relative;
+	background: url(../images/templatemo_sidebar_box.png) no-repeat;
+}
+
+.sidebar_box span {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 15px;
+	top: 20px;
+}
+
+.sidebar_box .menu_title { margin-left: 65px; width: 130px; margin-top: -12px; height: 25px; font-size: 16px; font-weight: bold; }
+.sidebar_box .menu_desc { margin-left: 65px; margin-top: 5px; width: 130px; color: #000; font-size: 11px; }
+
+.sidebar_box span.about { background: url(../images/about.png);}
+.sidebar_box span.services { background: url(../images/services.png) }
+.sidebar_box span.testimonial { background: url(../images/testimonial.png) }
+.sidebar_box span.contact { background: url(../images/contact.png) }

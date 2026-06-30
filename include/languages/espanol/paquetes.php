@@ -1,0 +1,10 @@
+<?php
+$title_page_header_paquete = array("1"=>"Vacaciones en Peru, Turismo, Hoteles, tours, paquetes, Rutas del Peru",
+                                   "2"=>"Tour Punta Cana, Republica Dominicana, Bavaro , Caribe , Tour Argentina, Buenos Aires, Puerto Madero, Boca, Caminito, Tour Brasil, Rio de Janeiro, Tour Corcovado, Pan de Azucar , Buzios, Sao Paulo, Tour Bogota, Tour Cartagena, Playa San Andres, Playa Santa Marta, Medellin, Cali, Tour Ecuador la mitad del mundo, Salinas, Quito, Guayaquil, Cuenca, Tour La Habana, Tour Varadero, Cuba, Tour Caracas, Tour Isla Margaritas, Tour Mexico, Playas Acapulco, Cancun, Cultura AztecaPiramides, Cancun, Playa del Carmen, Rivera Maya, Cabo San Carlos, Tour Panama, Vacaciones Panama, Viaje a Panama, Tour Disney World, plahouse Disney Live, vacations Orlando, Tour Orlando, Vacaciones Orlando, Tour Miami, Tour Punta del este, Tour a Europa, Alemania, Francia, Italia, España, Inglaterra, Tour Medio Oriente, Egipto, Jordania, Israel, Iran, Asia Central.",
+								   "4"=>"TOUR FIESTAS PATRIAS 2012 PERU : San Andrés, Cartagena, Salinas, Buenos Aires, Cancún , Playa del Carmen, Punta Cana, Varadero. Disfruta de las Fiestas Patrias 2012 viajando por el Perú y el mundo, reservando con anticipación asegurando sus vacaciones... TOUR FIESTAS PATRIAS 2012 PERU EN CUSCO, IQUITOS, TUMBES, MANCORA, PUNTA SAL, TARAPOTO, AREQUIPA",
+								   "3"=>"Tour A&ntilde;o nuevo 2012 , Puerto Palmeras Tarapoto resort, El Sauce resort, Amazonas Sinchicuy Lodge, Paquete a&ntilde;o nuevo 2012 Mancora Beach, Sausalito beach , Caballito de Mar Punta Sal, Balcones de Zorritos, Full day Lunahuana, Full day Paracas.");
+
+define("PAGE_TITLE_HEADER","Paquetes Turísticos");
+define("MSG_NORESULT_PACKS","No hay resultados de paquetes turísticos");
+$CategoriesTitle = array("1"=>"Paquetes Nacionales","2"=>"Paquetes Internacionales","3"=>"Promociones", "4"=>"Salidas Confirmadas", "5"=>"Luna de Miel", "6"=>"Cruceros", "7"=>"School Trips");
+?>

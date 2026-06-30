@@ -1,0 +1,47 @@
+/* form 1 */
+
+	#contact_us{
+		margin:1em 0;
+		padding-top:10px;
+		background:url(../images/form_top.gif) no-repeat 0 0;
+		}
+	#contact_us fieldset{
+		margin:0;
+		padding:0;
+		border:none;	
+		float:left;
+		display:inline;
+		width:260px;
+		margin-left:25px;
+		}		
+	#contact_us legend{display:none;}	
+	#contact_us p{margin:.5em 0;}	
+	#contact_us label{display:block;}	
+	#contact_us input, #contact_us textarea{		
+		width:252px;
+		background:#fff url(../images/form_input.gif) repeat-x;
+		padding:3px;
+		}		
+	#contact_us textarea{
+		height:125px;
+		overflow:auto;
+		}					
+	#contact_us p.submit{
+		clear:both;
+		background:url(../images/form_bottom.gif) no-repeat 0 100%;
+		padding:0 5px 20px 25px;
+		margin-right:0px;
+		text-align: center;
+		}	
+	#contact_us button{
+		width:150px;
+		height:37px;
+		line-height:37px;		
+		border:none;
+		background:url(../images/form_button.gif) no-repeat 0 0;
+		color:#fff;
+		cursor:pointer;
+		text-align:center;
+		}				
+
+/* // form 1 */

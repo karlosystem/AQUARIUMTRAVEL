@@ -1,0 +1,32 @@
+# --- Extensiones a ignorar ---
+*.xml
+*.pdf
+*.sql
+*.bak
+*.psd
+*.txt
+
+# --- Carpetas a ignorar ---
+corporativo/
+demo/
+cgi-bin/
+
+# --- Imágenes en subcarpetas específicas ---
+uploads/categoria/*
+include/languages/espanol/images/banner/*
+include/languages/espanol/images/paquete/*
+
+# --- Imágenes solo en la raíz ---
+/*.jpg
+/*.png
+/*.gif
+/*.ico
+/*.jpeg
+/*.bmp
+/*.webp
+
+# --- Recomendación adicional (Proyectos PHP/Laravel) ---
+# Si tu proyecto tiene dependencias, ignora la carpeta vendor
+vendor/
+# Ignora archivos de configuración local
+.env

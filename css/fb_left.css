@@ -1,0 +1,31 @@
+.social_tab {
+	float:right;
+	width:247px;
+	height:785px;
+	background: url(../images/fb_tab_R.png) no-repeat !important;
+	display:block;
+	right:-205px;
+	padding:0;
+	position:fixed;
+	top: 0px;
+	z-index:1002;
+}
+.social_content {
+	padding: 8px 5px 0pt 50px;
+}
+
+.twitter_tab {
+	float:right;
+	width:247px;
+	height:785px;
+	background: url(../images/tw_tab_R.png) no-repeat !important;
+	display:block;
+	right:-205px;
+	padding:0;
+	position:fixed;
+	top: 120px;
+	z-index:1002;
+}
+.twitter_content {
+	padding: 8px 5px 0pt 50px;
+}

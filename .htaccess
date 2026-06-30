@@ -1,0 +1,37 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} aquariumtravel\.com\.pe [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.aquariumtravel.com.pe/$1 [R,L]
+
+RewriteRule ^index.html$ index.php
+RewriteRule ^reservas.html$ reservas.php
+RewriteRule ^promociones.html$ promociones.php
+RewriteRule ^iquitos/tours_iquitos.html$ tours_iquitos.php
+RewriteRule ^nosotros.php$ content.php?cid=2 
+RewriteRule ^qbuscar.html$ qbuscar.php
+RewriteRule ^contactenos.html$ contactenos.php
+RewriteRule ^pasajes-en-oltursa.html$ contenido.php?cid=6
+RewriteRule ^pasajes-en-plusultra.html$ contenido.php?cid=7
+RewriteRule ^paquetes-turisticos(.*)-desde-lima-pid-([0-9]+).html$ categorias.php?pid=$2
+RewriteRule ^paquetes-(.*)-pid-([0-9]+).html$ paquete_detalle.php?pid=$2
+RewriteRule ^ofertas(.*)-pid-([0-9]+).html$ viewpromocion.php?pid=$2
+RewriteRule ^pasaje/oferta(.*)-pid-([0-9]+).html$ pasaje_detalle.php?pid=$2
+RewriteRule ^(.*)-pid_([0-9]+).html$ destinos_detalle.php?pid=$2
+RewriteRule ^thumb_paquetes_list/(.*)/([0-9]+)x([0-9]+).html$ th.resize.image.php?image=$1&w=$2&h=$3
+RewriteRule ^thumb_pasajes_list/(.*)/([0-9]+)x([0-9]+).html$ th.resize.image.php?image=$1&w=$2&h=$3
+RewriteRule ^thumb_notice_list/(.*)/([0-9]+)x([0-9]+).html$ th.resize.image.php?image=$1&w=$2&h=$3
+RewriteRule ^hoteles/popup(.*)-pid-([0-9]+).html$ hoteles_popup.php?pid=$2
+RewriteRule ^hoteles/galeria(.*)-pid-([0-9]+).html$ hoteles_galeria.php?pid=$2
+RewriteRule ^promocion/viaje(.*)-pid-([0-9]+).html$ promocion_detalle.php?pid=$2
+RewriteRule ^tours/(.*)-pid-([0-9]+).html$ tours_detalle.php?pid=$2
+RewriteRule peru-(.*)-cid-([0-9]+).html$ contenido.php?cid=$2
+
+ErrorDocument 404 /error_404.html
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

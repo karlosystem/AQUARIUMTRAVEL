@@ -1,0 +1,25 @@
+<?php
+$title_page_header_paquete = array("72"=>"Tour Argentina: Paquetes Carlos, Buenos Aires, Puerto de  Iguazú, Bariloche ,Aquí encuentra  Hoteles en Buenos Aires, Hoteles en Iguazú, Hoteles en Bariloche . Hotel Elegance Park Plaza Unique Hotel, Chateau Park Plaza Unique Hotel Promenade, Concorde, Catalina Suites, Gran Hotel, Carsson, Regis Hotel, Apart Congreso, Orly, Presidente Salles Colon De las Americas Americas Towers .",
+                                    "85"=>"Tour Africa: Paquete Europa Mediterranea, Delfos y Meteoras, Conosca Estambul, Tierra Santa y Petra El Cairo. Tour  conosca el Norte de Africa.",
+									"71"=>"Tours Aruba: Tours Antillas Holandesas; Paquetes Aruba con  Hoteles en Aruba, Marriott Resort & Stellaris Casino  , Riu Palace Aruba",
+									"74"=>"Tour Brasil, Paquetes Rio de Janeiro , Sao Paulo, Paquetes  Buzios y Rio de Janeiro, Florianapolis, Natal",
+									"77"=>"Tour Chile: Paquetes Santiago de Chile, Viña del Mar, Isla Galapagos.",
+									"75"=>"Tour Colombia: Paquetes San Andres, Con hoteles Decameron San Luis, Los Delfines, Acuarium, Maryland, Decameron San Andres, Isla San Andres con Hoteles Sol Caribe Campo, Sol Caribe San Andres, Sol Caribe Sea Flowers,  Tour Cartagena de Indias, Hoteles Royal Decameron Cartagena, Paquete Santa Marta, Hotel Decameron Galeon. Aquí encuentra  Hoteles en San Andres, Hoteles en Cartagena, Aquí encuentra Hoteles en Santa Marta. Sistema Todo Incluido, All Inclusive.",
+									"76"=>"Tour Cuba: Paquete Varadero, La Habana Y Varadero, Hoteles en Vaaradero Sol Sirenas Coral : Barcelo Solymar Beach Resort ; Barcelo Marina Palace ; Iberostar Tainos ; Melia Las Antillas ;Sol Palmeras ;Melia Varadero ;Iberostar Playa Alameda;Tryp Peninsula Varadero, Paquetes Varadero con Hotel Sandals Royal Hicacos, Hotele Brezzes, Sistema todo incluido, all Inclusive",
+									"81"=>"Tour Disney: Paquetes Walt Disney world Resort-Hoteles  ; disney's all star hotel, polynesian hotel, alojamiento en disney world, hotel disney caribbean beach hotel; grand floridian disney, disney beach club hotel, disney port orleans hotel, disney's boardwalk, disney's yacht club hotel, disney world motel, disney yacht club hotel, hoteles economucos de disney, dolphin, hoteles de lujo de Disney, hoteles de lujo de florida",
+									"79"=>"Tour Ecuador: Paquete Guayaquil, Paquete Salinas con Hotel Barcelo Colon Miramar. Sistema todo incluido. Aquí encuentra hoteles en Salinas.",
+									"84"=>"Tour Europa: Paquetes Europa Roma, Somana, Madrid, Italia Clasica, Lisboa, Paris, Noruega, Copenhague, Tour Europa.",
+									"86"=>"Tour Medio Oriente: Paquete Tierra Santa, Atenas, Gran Tour de Tunez, Tierra Santa con Crucero. Tour Chica, Japon, Filandia.",
+									"87"=>"Tour Mexico: Paquetes en Cancun, Playa del Carmen, Rivera Maya, Playa Car . Aquí encuentra hoteles en Cancun, Los, Cabos, Puerto Vallarta, Puerto Aventuras, Acapulco. CROWN PARADISE CLUB CANCUN ; OASIS CANCUN ;Riu Caribe ; Riu Cancun ; GRAN CARIBE REAL RESORT & SPA ; Royal Solaris Cancun ; RIU PALACE LAS AMERICAS ; Gran Melia Cancun  ; GR SOLARIS CANCUN ; DREAMS CANCUN RESORT & SPA ; GR CARIBE ; The Royal In Cancun (5*) ; Moon Palace Golf & Spa Resort  ; Sun Palace ; Beach Palace ; Cancun Palace ; LE BLANC SPA RESORT ; Dreams Cancun Resort & Spa Hoteles Barcelo Tucancun Beach, Barcelo Cancun , BARCELO MAYA CARIBE ; BARCELO MAYA TROPICAL ; BARCELO MAYA COLONIAL; Hoteles en Playa del Carmen; RIU LUPITA; REAL PLAYA DEL CARMEN HOTEL & BEACH CLUB ; SANDOS CARACOL ECO RESORT & SPA ; RIU PLAYACAR. Todos con sistema Todo Incluido, all inclusive.",
+									"83"=>"Tour Miami: Paquetes en Miami, Fly and Drive, Vuelos mas auto, alquiler de una semana de auto con millaje ilimitado, ALAMO, HERTZ.",
+									"88"=>"Tour: Panama: Paquetes en Panama ciudad, Colon, Panama Playa, Con Hotel Decameron Royal Beach Resort.  Aquí encuentre mas hoteles en Panama.",
+									"90"=>"Tour Republica Domonicana: Paquetes en Punta Cana , Samana, Bayahibe, La Romana, Puerto Plata Santo Domingo. Aqui encontraras hoteles Barcelo, Now Larimar ; Dreams Palm Beach ; Punta Cana Princess  ; Riu Palace Macao; Bavaro Princess ; Gran Bahía Príncipe Bávaro Resort; Iberostar Punta Cana ; Iberostar Dominicana ; Riu Bambu ; Gran Bahía Príncipe Bávaro Resort  ; Ocean Blue & Sand con sistema todo incluido, all inclusive.",
+									"91"=>"Tour Uruguay: Paquetes Punta del Este, Montevideo, Encuentra Hoteles en Punta del Este y Montevideo.",
+								   "92"=>"Tour Venezuela: Paquetes Isla Margarita, Paracas, Aquí encuentra hoteles en Isla Margarita.");
+								  
+
+define("PAGE_TITLE_HEADER","Paquetes Turísticos");
+define("MSG_NORESULT_PACKS","No hay resultados de paquetes turísticos");
+
+$CategoriesTitle = array("1"=>"Paquetes Nacionales","2"=>"Paquetes Internacionales","3"=>"Promociones", "4"=>"Salidas Confirmadas", "5"=>"Luna de Miel", "6"=>"Cruceros", "7"=>"School Trips");
+?>

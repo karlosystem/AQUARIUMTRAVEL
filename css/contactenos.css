@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+#ImgLoadingContact{
+visibility:hidden; 
+float:left !important; 
+margin-left:10px; 
+padding-top:5px;
+}
+
+.error_{
+font-size:12px;
+clear:both;
+display:block;
+visibility:hidden;
+margin-top:10px;
+text-align:center;
+padding:7px 3px 7px 35px;
+background-color: #FBE3E4;
+background-image: url(../images/error.gif);
+background-repeat:no-repeat;
+background-position: 5% 50%;
+color: #D12F19;
+border: 2px solid #FBC2C4;
+text-transform:uppercase;
+margin-left:0px;
+width:250px;
+}
+
+.success_{
+font-size:12px;
+clear:both;
+display:block;
+margin-top:10px;
+text-align:left;
+padding:7px 3px 7px 50px;
+background-color: #E6EFC2;
+background-image: url(../images/success.gif);
+background-repeat:no-repeat;
+background-position: 5% 50%;
+text-transform:uppercase;
+color: #529214; 
+border: 2px solid #C6D880;
+}

@@ -1,0 +1,10 @@
+.wrap03 {width:100%; margin:50px auto; border: 0px;}
+ul.tabs_ {list-style:none; width:100%; border: 0px;}
+ul.tabs_ li:first-child {border: 0px;}
+ul.tabs_ li {float:left; border-right:0px solid #fff; border-top:0px solid #fff; border-bottom:0px solid #fff;background-color: #216215; width:220px; margin:0px;}
+
+ul.tabs_ li.active {border:0px solid #fff; background-color: #d10e52; margin-bottom:-1px; color:#fff;}
+ul.tabs_ li a {display:block; padding:5px 10px; color:#fff; letter-spacing:-1px; outline:none; text-decoration:none; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; border: 0px;}
+ul.tabs_ li.active a {font-weight:600; color:#fff;}
+div.tabs_content {width:100%; border:0px solid #fff;}
+div.tabs_content > div {padding:0px; display:none; border: 0px;}
