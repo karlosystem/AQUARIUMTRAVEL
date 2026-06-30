@@ -10,6 +10,7 @@
 corporativo/
 demo/
 cgi-bin/
+paneldecontrol/error_log
 
 # --- Imágenes en subcarpetas específicas ---
 uploads/categoria/*
@@ -30,3 +31,4 @@ include/languages/espanol/images/paquete/*
 vendor/
 # Ignora archivos de configuración local
 .env
+
