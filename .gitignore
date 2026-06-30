@@ -32,3 +32,15 @@ vendor/
 # Ignora archivos de configuración local
 .env
 
+# Archivos de configuración que ya no queremos rastrear
+include/config.php
+include/constants.php
+
+# Archivos a eliminar del repositorio
+paquete_detalle_anterior.php
+info.php
+phpconfig.php
+paquete_detallexxx.php
+index_con_pestanas.php
+pasaje_detallexxx.php
+tabs.php
