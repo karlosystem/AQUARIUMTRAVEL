@@ -1,23 +1,11 @@
 <?php
 
-/*$GLOBALS['CONFIG_DB']["dbType"] = "mysql";
+$GLOBALS['CONFIG_DB']["dbType"] = "mysql";
 $GLOBALS['CONFIG_DB']["dbEncoding"] = "UTF8";
 $GLOBALS['CONFIG_DB']["dbServer"] = "localhost";
 $GLOBALS['CONFIG_DB']["dbUser"] = "root";
 $GLOBALS['CONFIG_DB']["dbPass"] = "";
 $GLOBALS['CONFIG_DB']["dbDatabase"] = "aquarium";
-$GLOBALS['CONFIG_DB']["tablePrefix"] = "tbl_";
-$GLOBALS['CONFIG_DB']["CharacterSet"] = "UTF-8";
-$GLOBALS['CONFIG_DB']["MetaKeywords"] = "";
-$GLOBALS['CONFIG_DB']["MetaDesc"] = "";*/
-
-
-$GLOBALS['CONFIG_DB']["dbType"] = "mysql";
-$GLOBALS['CONFIG_DB']["dbEncoding"] = "UTF8";
-$GLOBALS['CONFIG_DB']["dbServer"] = "localhost";
-$GLOBALS['CONFIG_DB']["dbUser"] = "aquarium_reg97";
-$GLOBALS['CONFIG_DB']["dbPass"] = "aoe1997aoeTT@";
-$GLOBALS['CONFIG_DB']["dbDatabase"] = "aquarium_dataeli2014";
 $GLOBALS['CONFIG_DB']["tablePrefix"] = "tbl_";
 $GLOBALS['CONFIG_DB']["CharacterSet"] = "UTF-8";
 $GLOBALS['CONFIG_DB']["MetaKeywords"] = "";
