@@ -1,7 +1,6 @@
 <?php
 
-#define("_URL","http://localhost/aquarium/");
-define("_URL","https://www.aquariumtravel.com.pe/");
+define("_URL","http://localhost/aquarium/");
 
 define("DEFAULT_LANGUAGE","es");
 define("ADMIN_MODULOS","images/modulos/");
